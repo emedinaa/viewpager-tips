@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ViewPagerTips</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="a_message">Fragment A</string>
+    <string name="b_message">Fragment B</string>
+    <string name="c_message">Fragment C</string>
+</resources>
