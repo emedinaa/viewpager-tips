@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:gravity="center"
+        android:id="@+id/header">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Update Fragment"
+            android:id="@+id/eteMessage"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.2"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="A"
+                android:id="@+id/btnAUpdate"/>
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="B"
+                android:id="@+id/btnBUpdate"/>
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="C"
+                android:id="@+id/btnCUpdate"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:text="Go to Camera"
+        android:id="@+id/btnCamera"/>
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btnCamera"
+        android:id="@+id/pager"/>
+
+</RelativeLayout>
